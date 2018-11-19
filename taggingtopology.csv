@@ -1,0 +1,5 @@
+ResourceGroupName,Location,ResourceId,environment,applicationname,applicationid,appownerid,costcenter,projectid,provider,businessunit,expirationdate,lastupdated
+CDN,canadacentral,/subscriptions/8a1c2a96/resourceGroups/CDN,npe,OVO,182,test@gmail.com,7000,101,azu,ebu,2020-06-15T00:0,2016-06-15T00:0
+cloud-shell-storage-eastus,eastus,/subscriptions/8a1c2a96/resourceGroups/cloud-shell-storage-eastus,npe,DCS,92,test@gmail.com,1000,102,azu,ebu,2020-06-15T00:0,2016-06-15T00:0
+Tagging,eastus2,/subscriptions/8a1c2a96/resourceGroups/Tagging,npe,OVO,352,test@gmail.com,5400,107,azu,ebu,2020-06-15T00:0,2016-06-15T00:0
+UHN,eastus2,/subscriptions/8a1c2a96/resourceGroups/UHN,npe,Oasys,763,test@gmail.com,2000,108,azu,ebu,2020-06-15T00:0,2016-06-15T00:0
