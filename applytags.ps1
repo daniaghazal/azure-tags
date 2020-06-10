@@ -8,9 +8,8 @@ $csv = import-csv $filepath
 # applying tags on resource groups
 foreach ($item in $csv) {
     Set-AzureRmResourceGroup -Name $item.ResourceGroupName -Tag @{environment="$($item.environment)";
-    applicationname="$($item.applicationname)"; applicationid="$($item.applicationid)"; appownerid="$($item.appownerid)";
-    costcenter="$($item.costcenter)"; projectid="$($item.projectid)"; provider="$($item.provider)";
-    businessunit="$($item.businessunit)"; expirationdate="$($item.expirationdate)"; lastupdated="$($item.lastupdated)"}
+    applicationname="$($item.applicationname)"; applicationid="$($item.applicationid)"; costcenter="$($item.costcenter)";
+    businessunit="$($item.businessunit)"}
 }
 
 $resourcegroups = @()
