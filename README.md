@@ -6,19 +6,18 @@
 
 ## Steps:
 1. **Remove all tags in a given subscription**
-In Windows PowerShell:
-- Log into your specific Azure subscription by running
-  ```
+- Using Windows PowerShell, log into your specific Azure subscription by running
+```
 	Login-AzureRmAccount
 	Select-AzureRmSubscription -Subscription "Your_Subscription_Name"	
-  ```
+```
 - Run the script
-  ```
-  .\removetags.ps1
-  ```
+```
+	.\removetags.ps1
+```
 
 2. **Apply specified tags**
 ```
-.\applytags.ps1 "path_to_CSV_file"
+	.\applytags.ps1 "path_to_CSV_file"
 ```
-where *path_to_CSV_file* looks something like this "C:\...\taggingtopology.csv"
+where *path_to_CSV_file* looks something like this "C:\Users\...\taggingtopology.csv"
