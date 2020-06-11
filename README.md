@@ -4,6 +4,8 @@
 - **removetags.ps1** - this script removes all azure tags from resources and resource groups within a given Azure subscription
 - **applytags.ps1** - this script applies a specified set of tags from a CSV file to their associated resource groups, in addition to all resources within the resource group
 
+:warning: **Take caution while using these scripts. Be careful not to remove tags in a PROD subscription!**
+
 ## Steps:
 1. **Remove all tags in a given subscription**
 - Using Windows PowerShell, log into your specific Azure subscription by running
